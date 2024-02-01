@@ -1,0 +1,98 @@
+---
+title: Chat Macro List
+description: A list easy to copy and paste chat macros for quick use
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Code } from '@astrojs/starlight/components';
+import generalNotes from '/src/notes/generalNotes.md?raw';
+import RMANotes from '/src/notes/RMANotes.md?raw';
+
+_**Note:** You can mouse over the top right of the code box to press on the "copy" function._
+
+### Internal Notes
+
+<Tabs>
+  <TabItem label="General">
+    <Code code={generalNotes} lang="mdx" title="General" frame="none" />
+  </TabItem>
+  <TabItem label="RMA">
+    <Code code={RMANotes} lang="mdx" title="RMA" frame="none" />
+  </TabItem>
+</Tabs>
+
+## Chat Macros
+
+### Opening Spiel
+
+_Copy each one in sequence and send in the chat as needed._
+
+<Code
+  code="Hi Customer! Thank you for reaching out to Meta Store Support via chat."
+  title="opening1"
+  frame="none"
+/>
+<Code
+  code="My name is Aaron, and I will be assisting you with your concerns today."
+  title="opening2"
+  frame="none"
+/>
+<Code
+  code="Before we start, I wanted to let you know that just in case we get disconnected at any point, you can reach back out to us anytime using this ticket number: #42069 as a reference."
+  title="opening3"
+  frame="none"
+/>
+<Code
+  code="Please keep the browser tab and/or chat window open during the session so that we don't disconnect."
+  title="opening4"
+  frame="none"
+/>
+
+---
+
+### Survey Spiels
+
+<Tabs>
+  <TabItem label="Default">
+    <Code
+      code="You may receive a short survey through email within the next 48 hours, and I'd appreciate you sharing any feedback on the service you received today."
+      title="default"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 1">
+    <Code
+      code="Thank you for choosing our service! We value your feedback and will be sending a short survey to your associated email shortly."
+      title="alt1"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 2">
+    <Code
+      code="We may send you a short survey via email soon to gather feedback on your experience with our service today. Thank you in advance for your valuable input!"
+      title="alt2"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 3">
+    <Code
+      code="If you have a few minutes, I’d appreciate you sharing feedback on the support I’ve provided you today."
+      title="alt3"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 4">
+    <Code
+      code="Before you leave, you may receive a short survey through email within the next 48 hours, and I'd appreciate you sharing any feedback on the service you received today."
+      title="alt4"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 5">
+    <Code
+      code="Finally, (customer's name), you may receive a short survey through email within the next couple of hours, and I'd appreciate you sharing any feedback on the service you received from us today. The survey will be sent to xxx (email)."
+      title="alt5"
+      frame="none"
+    />
+  </TabItem>
+</Tabs>

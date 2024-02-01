@@ -1,0 +1,83 @@
+---
+title: Email Macro List
+description: A list easy to copy and paste email macros for quick use
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Code } from '@astrojs/starlight/components';
+import generalNotes from '/src/notes/generalNotes.md?raw';
+import RMANotes from '/src/notes/RMANotes.md?raw';
+
+_**Note:** You can mouse over the top right of the code box to press on the "copy" function._
+
+### Internal Notes
+
+<Tabs>
+  <TabItem label="General">
+    <Code code={generalNotes} lang="mdx" title="General" frame="none" />
+  </TabItem>
+  <TabItem label="RMA">
+    <Code code={RMANotes} lang="mdx" title="RMA" frame="none" />
+  </TabItem>
+</Tabs>
+
+### Survey Spiels
+
+<Tabs>
+  <TabItem label="Default">
+    <Code
+      code="You may receive a short survey through email within the next 48 hours, and I'd appreciate you sharing any feedback on the service you received today."
+      title="default"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 1">
+    <Code
+      code="Thank you for choosing our service! We value your feedback and will be sending a short survey to your associated email shortly."
+      title="alt1"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 2">
+    <Code
+      code="We may send you a short survey via email soon to gather feedback on your experience with our service today. Thank you in advance for your valuable input!"
+      title="alt2"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 3">
+    <Code
+      code="If you have a few minutes, I’d appreciate you sharing feedback on the support I’ve provided you today."
+      title="alt3"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 4">
+    <Code
+      code="Before you leave, you may receive a short survey through email within the next 48 hours, and I'd appreciate you sharing any feedback on the service you received today."
+      title="alt4"
+      frame="none"
+    />
+  </TabItem>
+  <TabItem label="Alt 5">
+    <Code
+      code="Finally, (customer's name), you may receive a short survey through email within the next couple of hours, and I'd appreciate you sharing any feedback on the service you received from us today. The survey will be sent to xxx (email)."
+      title="alt5"
+      frame="none"
+    />
+  </TabItem>
+</Tabs>
+
+# WIP Stuff
+
+Hi Sam,
+
+Thank you very much for contacting Meta Store Support. I hope all is well with you.
+
+This is Aaron, your support agent for today. So, just to recap on a prior conversation, your Meta Quest 3 camera isn't working, correct?
+
+I'm sending this email here as a follow-up to let you know that we're reviewing your case and have forwarded the details to our specialist team. You should hear from us within 48 hours on the status of the request. Thank you so much for contacting Meta today, Sam.
+
+We'd love to help you sort this out as best we can, so we'll be keeping tabs on our communication here to ensure we can help you solve the issue. Our support is available 24/7, so feel free to reach out at anytime. It was a pleasure, and I hope we can update you soon.
+
+Thanks for reaching out, and have a great weekend.
